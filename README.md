@@ -82,20 +82,17 @@ ROE = (Net Income / Sales) × (Sales / Total Assets) × (Total Assets / Equity)
 |------|------|
 | **Demo Video** | [Insert Mediasite link after recording] |
 | **GitHub Repository** | [Insert your GitHub repo link] |
-
 ## 7. Repository Structure
 
-```text
-acc102-track2-dupont-analysis/
-├── README.md
-├── notebook.ipynb
-├── requirements.txt
-├── aapl_sales_sample.xlsx
-├── aapl_dupont_analysis.xlsx
-├── roe_trend.png
-├── roe_comparison.png
-├── roe_comparison.xlsx
-└── figures/                 (optional)
+- README.md
+- notebook.ipynb
+- requirements.txt
+- aapl_sales_sample.xlsx
+- aapl_dupont_analysis.xlsx
+- roe_trend.png
+- roe_comparison.png
+- roe_comparison.xlsx
+- figures/ (optional)
 
 ## 8. Limitations & Next Steps
 
