@@ -57,27 +57,35 @@ ROE = (Net Income / Sales) × (Sales / Total Assets) × (Total Assets / Equity)
 
 ### Steps
 
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
+1. Install dependencies
 
-# 2. Launch Jupyter Notebook
-jupyter notebook notebook.ipynb
+   ```bash
+   pip install -r requirements.txt
+2. Launch Jupyter Notebook
 
-# 3. Replace 'your_username' with your actual WRDS username in the connection cell
-# 4. Run all cells sequentially
-Expected Output Files
-File	Description
-aapl_sales_sample.xlsx	W5 basic query result (first 5 rows of Apple sales)
-aapl_dupont_analysis.xlsx	Complete DuPont analysis for Apple (2020-2025)
-roe_trend.png	Apple ROE trend line chart (2020-2025)
-roe_comparison.png	ROE comparison bar chart (Apple, Microsoft, Google)
-roe_comparison.xlsx	ROE comparison table for all three companies
-6. Product Links
+   ```bash
+   jupyter notebook notebook.ipynb
+3. Replace `'your_username'` with your actual WRDS username in the connection cell
+4. Run all cells sequentially
+### Expected Output Files
 
-Item	Link
-Demo Video	[Insert Mediasite link after recording]
-GitHub Repository	[Insert your GitHub repo link]
+| File | Description |
+| --- | --- |
+| `aapl_sales_sample.xlsx` | W5 basic query result (first 5 rows of Apple sales) |
+| `aapl_dupont_analysis.xlsx` | Complete DuPont analysis for Apple (2020-2025) |
+| `roe_trend.png` | Apple ROE trend line chart (2020-2025) |
+| `roe_comparison.png` | ROE comparison bar chart (Apple, Microsoft, Google) |
+| `roe_comparison.xlsx` | ROE comparison table for all three companies |
+## 6. Product Links
+
+| Item | Link |
+|------|------|
+| **Demo Video** | [Insert Mediasite link after recording] |
+| **GitHub Repository** | [Insert your GitHub repo link] |
+
+## 7. Repository Structure
+
+```text
 acc102-track2-dupont-analysis/
 ├── README.md
 ├── notebook.ipynb
@@ -88,28 +96,34 @@ acc102-track2-dupont-analysis/
 ├── roe_comparison.png
 ├── roe_comparison.xlsx
 └── figures/                 (optional)
-8. Limitations & Next Steps
 
-Current Limitations
+## 8. Limitations & Next Steps
 
-Only 6 years of data (2020-2025)
-Limited to 3 companies (Apple, Microsoft, Google)
-Does not include cash flow or valuation metrics
-WRDS account required (cannot run without institutional access)
-Future Improvements
+### Current Limitations
 
-Add DCF valuation model (W7 extension)
-Include more companies for industry benchmark
-Add time-series statistical tests
-Convert to Streamlit app for interactive analysis (Track 4)
-9. AI Use Disclosure
+- Only 6 years of data (2020-2025)
+- Limited to 3 companies (Apple, Microsoft, Google)
+- Does not include cash flow or valuation metrics
+- WRDS account required (cannot run without institutional access)
 
-Tool	Version	Access Date	Purpose
-ChatGPT	GPT-4	2026-04-15	Debug pandas code, generate README template, optimize plot labels
+### Future Improvements
+
+- Add DCF valuation model (W7 extension)
+- Include more companies for industry benchmark
+- Add time-series statistical tests
+- Convert to Streamlit app for interactive analysis (Track 4)
+## 9. AI Use Disclosure
+
+| Tool | Version | Access Date | Purpose |
+| --- | --- | --- | --- |
+| ChatGPT | GPT-4 | 2026-04-15 | Debug pandas code, generate README template, optimize plot labels |
+
 I have run, checked, and understood all code generated with AI assistance.
 
-Course: ACC102 Artificial Intelligence-Driven Data Analytics
-Track: 2 – GitHub Data Analysis Project
-Author: [Keyao Fan]
-Student ID: [2469196]
-Date: 2026-04-21
+---
+
+**Course**: ACC102 Artificial Intelligence-Driven Data Analytics
+**Track**: 2 – GitHub Data Analysis Project
+**Author**: Keyao Fan
+**Student ID**: 2469196
+**Date**: 2026-04-21
